@@ -1,0 +1,50 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 16, 27);
+  font-family: "Raleway", sans-serif;
+}
+body .home {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  height: 100vh;
+}
+body .home nav ul {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+body .home nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+body .home nav ul li a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #EAEAEA;
+  font-weight: 500;
+}
+body .home .headline-home {
+  text-align: center;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+}
+body .home .headline-home h1 {
+  font-size: 1.8rem;
+  color: #EAEAEA;
+}
+body .home .headline-home h4 {
+  color: #577590;
+  font-size: 0.9rem;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
